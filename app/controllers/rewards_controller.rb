@@ -44,5 +44,7 @@ class RewardsController < ApplicationController
     end
     @input_rows = input_row.map { |row| InputRow.new(row) }
     @input_row = @input_rows.sort_by { |row| [row.date, row.time] }
+  rescue Exception
+    render status: 422, json: { error: 'error parsing file' }
   end
 end
