@@ -1,4 +1,4 @@
-<%= form_tag 'rewards/calculate_rewards', multipart: true do %>
+<%= form_tag '/rewards/calculate_rewards', multipart: true do %>
   Attach the file to compute User Rewards
   <br><%= file_field_tag :file %>
   <br><br><%= submit_tag "Calculate Rewards" %>
