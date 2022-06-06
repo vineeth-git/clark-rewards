@@ -8,6 +8,6 @@ Steps:
   4. Run rails s - to start the server
   5. Open this url on browser - http://localhost:3000/rewards
   6. The page will be load with an attach button.
-  7. Attach the file containing the input details
+  7. Attach the file containing the input details (sample file is present in the repo as sample_rewards.txt)
   8. Click on 'Calculate Rewards' button to calculate the rewards for each user
   9. You will be redirected to other page with the Rewards calculated
